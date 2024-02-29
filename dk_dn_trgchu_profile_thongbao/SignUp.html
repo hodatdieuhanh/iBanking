@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./Project_css/global.css" />
+    <link rel="stylesheet" href="./Project_css/SignUp.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700;800&display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Gotham:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poller One:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Prosto One:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@500&display=swap" />
+</head>
+
+<body>
+    <div class="signup">
+        <header class="ibanking1">iBanking</header>
+        <main class="f-r-a-m-e">
+            <section class="shape-with-text14"></section>
+            <div class="sign-up-parent">
+                <div class="sign-up">Sign-up</div>
+                <div class="full-name">Full name</div>
+            </div>
+            <section class="password-inputs">
+                <input class="enter-your-full-name" type="text" />
+
+                <div class="password2">Password</div>
+            </section>
+            <section class="confirm-password">
+                <input class="create-the-password" type="text" />
+
+                <input class="confirm-the-new-password" type="text" />
+
+                <div class="email-address">Email address</div>
+            </section>
+            <input class="enter-the-email-address" type="text" />
+
+            <div class="number-phone">Number phone</div>
+            <input class="enter-the-phone-number" type="text" />
+        </main>
+        <footer class="parent-group-frame">
+            <div class="group-frame">
+                <div class="rectangle-parent6" id="groupContainer">
+                    <div class="frame-child8"></div>
+                    <div class="text2">Back</div>
+                </div>
+                <div class="rectangle-parent7">
+                    <div class="frame-child9"></div>
+                    <div class="text3">Restart</div>
+                </div>
+            </div>
+            <div class="parent-group-frame-inner">
+                <button class="rectangle-parent8" id="groupButton">
+                    <div class="frame-child10"></div>
+                    <div class="confirm-password1">Submit</div>
+                </button>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var groupContainer = document.getElementById("groupContainer");
+        if (groupContainer) {
+            groupContainer.addEventListener("click", function (e) {
+                window.location.href = "./SignIn.html";
+            });
+        }
+
+        var groupButton = document.getElementById("groupButton");
+        if (groupButton) {
+            groupButton.addEventListener("click", function (e) {
+                window.location.href = "./SignIn.html";
+            });
+        }
+    </script>
+</body>
+
+</html>

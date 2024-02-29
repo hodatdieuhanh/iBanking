@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./NapTien_css/global.css" />
+    <link rel="stylesheet" href="./NapTien_css/BillingInformation.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Redacted Script:wght@300&display=swap" />
+</head>
+
+<body>
+    <div class="billinginformation">
+        <section class="frame-a">
+            <div class="frame-b">
+                <div class="frame-c">
+                    <div class="frame-c-child"></div>
+                    <div class="service-frame">
+                        <div class="text-dich-vu">
+                            <div class="dch-v">Dịch vụ</div>
+                            <div class="nguon-tien-frame">
+                                <div class="ngun-tin">Nguồn tiền</div>
+                                <div class="s-tin">Số tiền</div>
+                            </div>
+                        </div>
+                        <div class="nap-tien-frame">
+                            <div class="np-tin-vo1">Nạp tiền vào ví</div>
+                            <div class="b-i-d-v-bank-frame">
+                                <div class="bidvbank1">BIDVBank</div>
+                                <div class="vnd1">13.230.000vnd</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line-frame">
+                        <div class="phigiao-dich-frame">
+                            <div class="text-a-dasdasdsadasdasdasdas"></div>
+                            <div class="ellipse-frame">
+                                <div class="group-frame">
+                                    <div class="ph-giao-dch">Phí giao dịch</div>
+                                </div>
+                                <div class="vnd2">2.000vnd</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-frame-g">
+                    <div class="input-icon">
+                        <div class="input-icon-child"></div>
+                        <div class="frame-parent">
+                            <div class="dadasdasdsadasdasdasdas-wrapper">
+                                <div class="dadasdasdsadasdasdasdas">
+                                    ádadasdasdsadasdasdasdas
+                                </div>
+                            </div>
+                            <div class="dadasdasdsadasdasdasdas1">
+                                ádadasdasdsadasdasdasdas
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="billing-frame">
+            <div class="rectangle-parent1" id="groupContainer">
+                <div class="frame-child1"></div>
+                <div class="text">Back</div>
+            </div>
+            <div class="confirm-text">
+                <div class="frame-div">
+                    <div class="frame-child2"></div>
+                    <b class="confirm">Confirm</b>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        var groupContainer = document.getElementById("groupContainer");
+        if (groupContainer) {
+            groupContainer.addEventListener("click", function (e) {
+                window.location.href = "./BankDeposit.html";
+            });
+        }
+    </script>
+</body>
+
+</html>

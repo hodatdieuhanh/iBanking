@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./NapTien_css/global.css" />
+    <link rel="stylesheet" href="./NapTien_css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Redacted Script:wght@300&display=swap" />
+</head>
+
+<body>
+    <div class="bankdeposit">
+        <section class="bankdeposit-inner">
+            <div class="rectangle-parent">
+                <div class="frame-child"></div>
+                <div class="np-tin-vo-parent">
+                    <h2 class="np-tin-vo">Nạp tiền vào</h2>
+                    <div class="bank-logo-wrapper">
+                        <div class="bank-logo">
+                            <div class="bank-logo-child"></div>
+                            <div class="bank-logo-item"></div>
+                            <div class="deposit-button-wrapper">
+                                <div class="deposit-button">
+                                    <div class="v-abc">Ví abc</div>
+                                    <div class="vnd">23.000.000vnd</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="background">
+                    <div class="rectangle-group">
+                        <div class="frame-item"></div>
+                        <div class="s-tin-cn">Số tiền cần nạp</div>
+                        <input class="input" placeholder="0 đ" type="text" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <form class="source-container">
+            <div class="rectangle-container">
+                <div class="frame-inner"></div>
+                <div class="t-ngun-tin-parent">
+                    <h2 class="t-ngun-tin">Từ nguồn tiền</h2>
+                    <div class="b-i-d-v-banner">
+                        <div class="source-account">
+                            <div class="source-account-child"></div>
+                            <div class="transfer-from">
+                                <div class="transfer-from-child"></div>
+                                <div class="b-i-d-v-logo">
+                                    <div class="free-charge">
+                                        <div class="bidvbank">BIDVBank</div>
+                                        <input class="min-ph-mi" placeholder="Miễn phí mọi thanh toán" type="text" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="amount-to-add">
+                                <div class="target-account">
+                                    <div class="target-account-child"></div>
+                                    <div class="target-account-item"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="amount-to-add1">
+                    <div class="currency-symbol">
+                        <div class="currency-symbol-child"></div>
+                        <div class="s-tin-cn1">Số tiền cần nạp</div>
+                        <input class="input1" placeholder="0 đ" type="text" />
+                    </div>
+                </div>
+            </div>
+            <div class="group">
+                <div class="recharge-label">
+                    <div class="amount-field">
+                        <div class="amount-field-child"></div>
+                        <div class="horizontal-line">
+                            <div class="horizontal-line-child"></div>
+                            <div class="thm-ngn-hng">Thêm ngân hàng</div>
+                            <div class="vertical-line">
+                                <div class="b-i-d-v-ellipse">
+                                    <div class="deposit-source">
+                                        <div class="deposit-source-child"></div>
+                                        <div class="deposit-source-item"></div>
+                                        <div class="deposit-source-inner"></div>
+                                    </div>
+                                    <div class="three-ellipses">
+                                        <div class="b-i-d-v-bank-icon"></div>
+                                        <div class="b-i-d-v-bank-icon1"></div>
+                                        <div class="b-i-d-v-bank-icon2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-frame">
+                    <div class="grouptext">
+                        <div class="group-div" id="groupContainer">
+                            <div class="rectangle-div"></div>
+                            <div class="container">Back</div>
+                        </div>
+                    </div>
+                    <button class="rectangle">
+                        <div class="recharge-button" id="rechargeButton"></div>
+                        <div class="recharge">Recharge</div>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        var groupContainer = document.getElementById("groupContainer");
+        if (groupContainer) {
+            groupContainer.addEventListener("click", function (e) {
+                // Please sync "ProfileUser" to the project
+            });
+        }
+
+        var rechargeButton = document.getElementById("rechargeButton");
+        if (rechargeButton) {
+            rechargeButton.addEventListener("click", function (e) {
+                window.location.href = "./BillingInformation.html";
+            });
+        }
+    </script>
+</body>
+
+</html>

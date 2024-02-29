@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./Project_css/global.css" />
+    <link rel="stylesheet" href="./Project_css/SignIn.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700;800&display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Gotham:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poller One:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Prosto One:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@500&display=swap" />
+</head>
+
+<body>
+    <div class="signin">
+        <div class="ibanking-wrapper">
+            <h1 class="ibanking">iBanking</h1>
+        </div>
+        <div class="shape-with-text-parent1">
+            <div class="shape-with-text12"></div>
+            <div class="remember-me-parent">
+                <div class="remember-me">Remember me</div>
+                <div class="forgot-password" id="forgotPasswordText">
+                    Forgot password
+                </div>
+                <div class="username-password-frame-parent">
+                    <div class="username-password-frame">
+                        <button class="username-image-frame">
+                            <div class="username"></div>
+                            <img class="image-4-icon" alt="" src="./public/image-4@2x.png" />
+                        </button>
+                        <button class="username-image-frame1">
+                            <div class="password1"></div>
+                            <img class="image-5-icon" alt="" src="./public/image-5@2x.png" />
+                        </button>
+                    </div>
+                    <div class="remember-me-label">
+                        <input class="shape-with-text13" type="checkbox" />
+                    </div>
+                </div>
+            </div>
+            <button class="rectangle-parent4">
+                <div class="frame-child6" id="rectangle"></div>
+                <b class="text1">Login</b>
+            </button>
+        </div>
+        <div class="signin-inner">
+            <div class="rectangle-parent5">
+                <div class="frame-child7" id="rectangle"></div>
+                <b class="passcode-entry">New here? Create an account</b>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var forgotPasswordText = document.getElementById("forgotPasswordText");
+        if (forgotPasswordText) {
+            forgotPasswordText.addEventListener("click", function (e) {
+                window.location.href = "./ForgetPassword.html";
+            });
+        }
+
+        var rectangle = document.getElementById("rectangle");
+        if (rectangle) {
+            rectangle.addEventListener("click", function (e) {
+                window.location.href = "./HomePage.html";
+            });
+        }
+
+        var rectangle = document.getElementById("rectangle");
+        if (rectangle) {
+            rectangle.addEventListener("click", function (e) {
+                window.location.href = "./SignUp.html";
+            });
+        }
+    </script>
+</body>
+
+</html>
